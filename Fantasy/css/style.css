@@ -1457,18 +1457,18 @@ body .wrap-body {
 }
 
 .box-image-one {
-	background: url(../img/1.jpg) no-repeat;
+	background: url(../img/qq.jpg) no-repeat;
 	background-size: cover;
 	background-position: center right;
 }
 
 .box-image-two {
-	background: url(../img/2.jpg) no-repeat;
+	background: url(../img/car1.jpg) no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
 .box-image-three {
-	background: url(../img/4.jpg) no-repeat;
+	background: url(../img/car2.jpg) no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
