@@ -58,6 +58,18 @@
       oWeixinimg.addEventListener('click', function () {
         oWeixinimg.style.display = 'none';
       }, false);
+
+      // playing background music.
+      var oAudio = document.getElementById('audio');
+      var oPlay = document.getElementById('dv');
+
+      oAudio.onclick = function() {
+        if (oPlay.paused) {
+          oPlay.play();
+        } else {
+          oPlay.pause();
+        }
+      }
     }
   </script>
   <style type="text/css">
@@ -65,11 +77,13 @@
 </head>
 
 <body class="index-page">
+  <audio id="dv" src="music/music.mp3"></audio>
+  
   <div class="W-bei"></div>
   <div class="W-zhe">
     <img src="img/01af1f568cd3796ac725bb5c8fdd8e.gif" />
   </div>
-  <div class="wrap-body">
+  <div class="wrap-body" id="audio">
     <!-- content -->
     <div id="page-content" class="container-fluid">
       <div class="wrap-content">
@@ -87,16 +101,14 @@
                     <div id="language_one"></div>
                     <p class="Rieko" id="language_two" style="display: none;">
                       Fortunately, I am Fantasy<br /> ———
-                      <br /> &nbsp &nbsp &nbsp &nbsp I am a funny front-end engineer, Graduated from China Jiliang
-                      University in 2015, Love
-                      Internet development, code obsessive-compulsive patients, with efficient selt-learning ability and
-                      problem analysis ability.
+                      <br /> &nbsp &nbsp &nbsp &nbsp The website is a private website. By browsing the website,
+                      you can get the contact information of all the authors. You can check the resume of the author and
+                      understand the personal hobbies of the author.
                       <br />
                       <br /> I can help
                       <br /> ———
                       <br /> &nbsp &nbsp &nbsp &nbsp Front-end development, modular development, MVVM pattern
-                      development using a variety of
-                      techniques to achieve interactie rich interface.
+                      development using a variety of techniques to achieve interactie rich interface.
                     </p>
                   </div>
                 </div>
@@ -138,7 +150,8 @@
                 </div>
 
                 <div class="col-xs-4 social-box box-facebook">
-                  <a class="" href="https://github.com/search?q=zhangliangfantasy/personal" target="_blank" title="Github">
+                  <a class="" href="https://github.com/search?q=zhangliangfantasy/personal" target="_blank"
+                    title="Github">
                     <div class="social-box-inner">
                       <div class="social-box-inner-content">
                         <i class="fa fa-github"></i>
@@ -230,8 +243,10 @@
                     <div class="heading">
                       <h2>My resume <br /></h2>
                     </div>
-                    <p>I am a funny front-end engineer, Graduated from China Jiliang University in 2015, Love Internet development, code obsessive-compulsive patients, with efficient selt-learning ability and problem analysis ability.</p>
-                    <a class="btn btn-skin m-top30" href="rieko.html">resume</a>
+                    <p>I am a funny front-end engineer, Graduated from China Jiliang University in 2015, Love Internet
+                      development, code obsessive-compulsive patients, with efficient selt-learning ability and problem
+                      analysis ability.</p>
+                    <a id="resume" class="btn btn-skin m-top30" href="rieko.html">resume</a>
                     <div class="owl-controls ">
                       <div class="btn next next-b_2-slide"><i class="fa fa-arrow-left"></i></div>
                       <div class="btn prev next-b_2-slide"><i class="fa fa-arrow-right"></i></div>
@@ -243,8 +258,48 @@
           </section>
         </div>
 
+        <div class="col-lg-10 col-md-offset-1">
+          <section class="box-content box-3 box-style-0">
+            <div class="flex-box no-gutter">
+              <div class="col-sm-4">
+                <div class="box-image">
+                  <img src="img/sceneryone.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-sm-8">
+                <div class="box-text ">
+                  <div class="box-text-inner pd-large-lg pd-small-xs">
+                    <div class="heading">
+                      <h2>My blog</h2>
+                    </div>
+                    <p>
+                      &nbsp &nbsp &nbsp &nbsp Web front-end engineer — Fantasy's front-end road, filtering and
+                      accumulating knowledge, recording study notes and experience.</p>
+                    <a class="btn btn-skin m-top30" href="https://blog.csdn.net/Fantasyzl" target="_blank">Fantay
+                      blog</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
       </div>
     </div>
+
+    <footer id="page-footer">
+      <div class="Ws-bei" style="line-height: 20px">
+
+        <span id="busuanzi_container_site_uv" class="Ws-bei">
+          Thank you for your browsing, welcome to bother.
+        </span>
+
+        <span id="busuanzi_container_site_pv" class="Ws-bei">
+          Total number of visits to this site <span id="busuanzi_value_site_pv"></span>
+        </span>
+        © 2019 Fantasy
+      </div>
+    </footer>
 
   </div>
   <script type="text/javascript">

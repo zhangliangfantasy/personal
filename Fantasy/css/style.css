@@ -1005,9 +1005,13 @@ body .wrap-body {
 	font-size: 13px;
 	letter-spacing: 2px;
 	font-weight: 700;
-	background: #fff;
+	background: rgb(132, 117, 3);
 	margin: 10px 0;
 	width: 190px;
+	transition: all ease-in-out 1s;
+}
+.btn-skin:hover {
+	transform: scale(1.5);
 }
 
 .btn-skin i.fa {
@@ -1016,8 +1020,8 @@ body .wrap-body {
 
 .btn-skin:hover,
 .btn-skin:focus {
-	color: #fff;
-	background-color: #111;
+	color: rgb(231, 96, 6);
+	background-color: rgb(236, 240, 6);
 }
 
 

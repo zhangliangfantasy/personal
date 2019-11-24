@@ -207,15 +207,23 @@ p {
 }
 
 a {
-    color: rgb(240, 217, 12);
+    color: rgb(154, 146, 75);
     position: absolute;
     top: 50%;
     left:40%;
+    font-size: 30px;
     letter-spacing: 2px;
+    font-weight: bold;
+    transition: all ease-in-out 1s;
+}
+a:hover {
+  color: rgb(255, 205, 5);
+  transform: scale(1.5);
 }
 
 li {
   position: absolute;
+  font-size: 30px;
   top: 50%;
   list-style: none;
   color: rgb(240, 217, 12);

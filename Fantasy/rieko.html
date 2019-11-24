@@ -1,10 +1,27 @@
 <html>
+
 <head>
     <link href="css/styles.css" rel="stylesheet">
     <title>FANTASY</title>
     <link rel="shortcut icon" href="img/favicon.ico" />
+    <script>
+        window.onload = function () {
+            var oPlay = document.getElementById('dvs');
+            var oIndex = document.getElementById('index');
+
+            oIndex.onclick = function () {
+                if (oPlay.paused) {
+                    oPlay.play();
+                } else {
+                    oPlay.pause();
+                }
+            }
+        }
+    </script>
 </head>
-<body class="index-page">
+
+<body class="index-page" id="index">
+    <audio id="dvs" src="music/Nothing.mp3"></audio>
     <div class="W-bei"></div>
     <h1>personal resume</h1>
     <div class="wrapper">
@@ -37,7 +54,8 @@
             <div class="story" id="s1">
                 <div class="info">
                     <h3>Self-evaluation</h3>
-                    <p>a.&nbsp Have a strong interest in front-end technology, like to visit CSDN, blog garden and other technical forums;  
+                    <p>a.&nbsp Have a strong interest in front-end technology, like to visit CSDN, blog garden and other
+                        technical forums;
                         </br>
                         </br>
                         b.&nbsp Have good aesthetic ability, have good code programming Habits;
@@ -46,7 +64,8 @@
                         c.&nbsp Learning to adapt, and willing to learn new knowledge to enrich themselves;
                         </br>
                         </br>
-                        d.&nbsp Strong ability to withstand pressure, confident to develop under the same work intensity Work;
+                        d.&nbsp Strong ability to withstand pressure, confident to develop under the same work intensity
+                        Work;
                         </br>
                         </br>
                         e.&nbsp Easy-going and good team spirit.
@@ -61,7 +80,8 @@
                     <h3>Project</h3>
                     <p>a.&nbspIntelligent hardware project
                         </br>
-                        A children's programming industry project that can control smart hardware (motors, lights, displays, speakers, etc.) via mobile APP
+                        A children's programming industry project that can control smart hardware (motors, lights,
+                        displays, speakers, etc.) via mobile APP
                         Develop mobile APP and embedded software.
                         </br></br>
                         b.&nbspBackstage management
@@ -69,7 +89,8 @@
                         </br></br>
                         c.&nbspWhere to go to the website APP imitation
                         </br>
-                        Familiarize with the Vue framework by copying the Where to move the APP, and familiarize yourself with Web mobile development.
+                        Familiarize with the Vue framework by copying the Where to move the APP, and familiarize
+                        yourself with Web mobile development.
                     </p>
                 </div>
             </div>
@@ -86,4 +107,5 @@
         </div>
     </div>
 </body>
+
 </html>
