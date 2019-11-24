@@ -941,7 +941,7 @@ body .wrap-body {
 }
 
 .owl-controls {
-	margin-top: 60px;
+	margin-top: 30px;
 }
 
 .owl-controls .owl-prev {}
@@ -951,7 +951,7 @@ body .wrap-body {
 .owl-controls .btn i.fa {
 	font-size: 25px;
 	margin: 0 10px 0;
-	color: #111
+	color: rgb(245, 210, 11);
 }
 
 .owl-carousel .item {
@@ -1288,14 +1288,15 @@ body .wrap-body {
 }
 
 .flex-box .box-text .box-text-inner p {
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 400;
-	color: rgb(186, 186, 191);
+	color: rgb(177, 231, 179);
+	font-family: 'Times New Roman', Times, serif;
 }
 #language_one {
 	font-size: 20px;
 	font-weight: 500;
-	color: rgb(14, 235, 21);
+	color: rgb(177, 231, 179);
 	font-family: 'Times New Roman', Times, serif;
 }
 
@@ -1457,18 +1458,38 @@ body .wrap-body {
 }
 
 .box-image-one {
-	background: url(../img/qq.jpg) no-repeat;
+	background: url(../img/scenery1.jpg) no-repeat;
 	background-size: cover;
 	background-position: center right;
 }
 
 .box-image-two {
-	background: url(../img/car1.jpg) no-repeat;
+	background: url(../img/scenery2.jpg) no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
 .box-image-three {
-	background: url(../img/car2.jpg) no-repeat;
+	background: url(../img/scenery3.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.box-image-four {
+	background: url(../img/scenery4.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.box-image-five {
+	background: url(../img/scenery5.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.box-image-six {
+	background: url(../img/scenery6.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.box-image-seven {
+	background: url(../img/scenery7.jpg) no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
